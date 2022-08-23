@@ -1,0 +1,270 @@
+
+
+body{
+    font-family: 'Creepster', cursive;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1 1 1;
+    justify-content: center;
+    background: white;
+    margin-top: 130px;
+    }
+     .imagen{
+            
+        }
+
+        .imagen img{
+            
+            
+        }
+    
+    .perfiles p{
+        justify-content:left;
+        letter-spacing: 1px;
+        font-size: 20px;
+        text-transform: capitalize;
+        text-align: start;
+        
+    }
+    
+    .perfiles{
+        margin-bottom: 250px;
+        border-radius: 50px;
+        padding-top: 210px;
+        
+    }
+        .perfiles p:hover{
+            color: #317217;;
+        }
+
+        .perfiles img{
+            margin-right: 100px;
+            justify-content:left;
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            
+        }
+            span{
+                text-align:;
+            }
+
+.perfiles2 p{
+        letter-spacing: 1px;
+        font-size: 20px;
+        text-transform: capitalize;
+        text-align: start;
+       
+    }
+    .perfiles2 p:hover{
+        color: #317217;;
+    }
+
+
+    .perfiles2{
+        margin-left: 100px;
+        margin-bottom: 250px;
+        border-radius: 50px;
+        padding-top: 210px;
+        
+    }
+        .perfiles2 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+                
+        }
+.ilduche{
+    margin-left: 15px;
+    }
+.vnno{
+    margin-left: 20px;
+    }
+.nocristx{
+    margin-left: 10px;
+    }
+
+.musica{
+    background: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+    
+}
+.lanzamientos{
+    margin-top: 50px;
+    background: black;
+    height: 50px;
+}
+    .lanzamientos h2{
+
+        color: #317217;
+        text-align: center;
+    
+}
+
+.cancion{
+    padding: 0 50px  0px 50px;
+    
+}
+
+.biografia{
+    background: black;
+    text-align: center;
+    height: 110px;
+    width: 100%;
+    padding-top: 50px;
+}
+    .biografia h2{
+        color: #317217;
+        text-align: center;
+    }
+           
+.bio{
+    background: rgb(80, 85, 6);
+    height: 200px;
+    width: 100%;
+    padding-top: 50px;
+    border: 2px solid rgb(247, 16, 0);
+}
+    
+
+footer{
+    flex-direction: row;
+    position: fixed;
+    background: black;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.menu{
+    background: rgba(0, 0, 0, .1);
+    display: flex;
+    flex-flow: row nowrap;
+    height: 60px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+.logo{        
+    flex: 1 1 auto;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;  
+    margin-left: 100px;
+}
+    .logo a{
+        color: rgb(67, 47, 160);
+        font-size: 50px;
+        letter-spacing: 4px;
+        
+    }
+    .logo a:hover{
+        color: #317217;
+    }
+.nav{
+    display: flex;
+    flex: 5 1 auto;
+    color: rgb(37, 138, 17);
+    margin: 0px 15px 0px 100px;
+    
+}
+    .nav a{                                       
+        color:rgb(67, 47, 160);                    
+        font-size: 25px;
+        text-transform: uppercase;
+        margin:0px 60px 5px 60px;
+        letter-spacing: 2px;              
+    }
+    .nav a:hover{
+        color:#317217;;
+    }
+
+
+.icono{
+    display: flex;
+    align-items: center;
+}
+.social{
+    flex: 1 1 auto;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+    .social i{
+        color: rgb(255, 255, 255);
+        margin-right: 40px;
+        font-size: 25px;
+        
+    
+    }
+@media all and (max-width: 1700px){
+    .menu{
+        background: rgba(0, 0, 0, .1);
+        display: flex;
+        flex-flow: row nowrap;
+        height: 85px;
+        align-items: center;
+        border-bottom: 1px solid rgba(255, 255, 255, .5);
+    }
+}  
+@media all and (max-width: 1288px){
+    .menu{
+        background: rgba(0, 0, 0, .1);
+        display: flex;
+        flex-flow: row nowrap;
+        height: 125px;
+        align-items: center;
+        border-bottom: 1px solid rgba(255, 255, 255, .5);
+    } 
+}
+
+@media all and (max-width: 1115px){
+    .principal img{
+        justify-content: center;
+            
+        background: white;
+
+        }
+    .menu{
+        flex-direction: column;
+        height: auto; 
+        }   
+    }
+
+
+@media all and (max-width: 800px){
+        .principal{
+            flex-direction: column;
+            height: auto;
+            justify-content: center;
+            background: white;
+
+        }
+        .menu{
+            flex-direction: column;
+            height: auto;
+        }
+        
+}
+@media all and (max-width: 600px){
+    .menu{
+        flex-direction: column;
+        height: auto;
+}
+@media all and (max-width: 400px){
+    .menu{
+        flex-direction: column;
+        height: auto;
+
+}
